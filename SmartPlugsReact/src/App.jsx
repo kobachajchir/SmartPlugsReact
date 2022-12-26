@@ -8,6 +8,7 @@ import { Container } from "react-bootstrap";
 import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import PlugData from "./components/PlugData/PlugData";
 import Settings from "./components/SettingsComponent/Settings";
+import UserSettings from "./components/UserSettingComponent/UserSettings";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/plugData" element={<PlugData />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/userSettings" element={<UserSettings />} />
         </Routes>
       </Container>
     </BrowserRouter>

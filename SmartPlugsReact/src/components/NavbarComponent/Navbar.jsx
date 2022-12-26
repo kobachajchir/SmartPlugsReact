@@ -15,7 +15,7 @@ import {
   RiUserShared2Fill,
 } from "react-icons/ri";
 import { BiArrowBack } from "react-icons/bi";
-import { FaUser } from "react-icons/fa";
+import { FaUser, FaUserTimes, FaUserCog } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import React, { useState, useRef } from "react";
 
@@ -60,10 +60,10 @@ export default function NavbarComponent() {
               {show && (
                 <>
                   <Link
-                    to={"/settings"}
+                    to={"/userSettings"}
                     className="nav-link align-items-center userMenuItem"
                   >
-                    <RiUserSettingsFill
+                    <FaUserCog
                       size={IconSize}
                       className="userMenuItem"
                       color="rgba(255, 255, 255, 0.55)"
@@ -74,7 +74,7 @@ export default function NavbarComponent() {
                     to={"/settings"}
                     className="nav-link align-items-center userMenuItem"
                   >
-                    <RiUserShared2Fill
+                    <FaUserTimes
                       size={IconSize}
                       className="userMenuItem"
                       color="rgba(255, 255, 255, 0.55)"
