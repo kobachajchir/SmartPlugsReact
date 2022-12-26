@@ -1,0 +1,23 @@
+.align-items-center {
+  display: flex !important;
+  align-items: center !important;
+}
+.iconMenuNav {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+.userMenuItem {
+  color: rgba(255, 255, 255, 0.55) !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.fade {
+  transition: opacity 0.15s linear !important;
+}
+.userMenu {
+  transform: translate3d(892.5px, 23px, 0px) !important;
+}
