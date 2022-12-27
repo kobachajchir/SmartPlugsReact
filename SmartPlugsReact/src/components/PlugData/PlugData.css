@@ -1,0 +1,23 @@
+.plugTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plugState {
+  font-size: large;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftColumn {
+  margin-right: 5px;
+}
+.rightColumn {
+  margin-left: 5px;
+}
+.card {
+  padding: 1em !important;
+}
+.card-body {
+  flex: 0;
+  padding: 0;
+}

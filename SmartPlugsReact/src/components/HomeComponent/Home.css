@@ -1,0 +1,32 @@
+.sectionTitle {
+  margin-top: 15px;
+  text-align: center;
+  color: #000;
+}
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin-top: 30px !important;
+}
+.modeTitle {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+}
+.modeData {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+}
+.linkDiv {
+  text-align: center;
+  margin-top: 20px;
+}
